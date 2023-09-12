@@ -1,20 +1,20 @@
 {
 	"themeColorLight": "#eceff4",
-	"themeColorDark": "#2e3440",
+	"themeColorDark": "#11150d",
 	"cdn": false,
 	"author": {
-		"name": "Scott Evans",
-		"email": "noreply@example.com",
-		"url": "https://scott.ee",
-		"location": "Stockholm, Sweden",
-		"fediverseProfile": "https://toot.scott.ee/@scott"
+		"name": "Fershad Irani",
+		"email": "itsfish@fershad.com",
+		"url": "https://www.fershad.com",
+		"location": "Taipei, Taiwan",
+		"fediverseProfile": "https://indieweb.social/@fershad"
 	},
 	"meta": {
 		"separator": "•",
 		"opengraphDefaultImage": "/assets/img/opengraph-default.png"
 	},
 	"seo": {
-		"defaultChangeFrequency": "monthly",
+		"defaultChangeFrequency": "weekly",
 		"defaultPriority": "0.7"
 	},
 	"manifest": {
@@ -22,6 +22,6 @@
 		"backgroundColor": "#eceff4",
 		"display": "minimal-ui",
 		"orientation": "portrait-primary",
-		"categories": ["business", "photo"]
+		"categories": ["digital", "websites", "sustainability", "low-carbon", "general"]
 	}
 }
