@@ -11,14 +11,14 @@
 	"frontMatter.taxonomy.dateFormat": "YYYY-MM-DD",
 	"frontMatter.experimental": true,
 	"frontMatter.extensibility.scripts": [
-		"./.frontmatter/ui/image.js"
+		"[[workspace]]/.frontmatter/ui/image.js"
 	],
 	"frontMatter.taxonomy.contentTypes": [
 		{
 			"name": "default",
 			"pageBundle": false,
 			"previewPath": null,
-			"template": "./.frontmatter/templates/default.md",
+			"template": "[[workspace]]/.frontmatter/templates/default.md",
 			"clearEmpty": true,
 			"fields": [
 				{
@@ -209,16 +209,16 @@
 				"frontMatter.content.pageFolders": [
 					{
 						"title": "Posts",
-						"path": "./src/en/posts",
+						"path": "[[workspace]]/src/en/posts",
 						"previewPath": "en/writing"
 					},
 					{
 						"title": "Pages",
-						"path": "./src/en/pages",
+						"path": "[[workspace]]/src/en/pages",
 						"previewPath": "en"
 					}
 				],
-				"frontMatter.content.publicFolder": "./src"
+				"frontMatter.content.publicFolder": "[[workspace]]/src"
 			}
 		}
 	],
@@ -469,7 +469,7 @@
 		{
 			"id": "settings",
 			"title": "Settings",
-			"file": "./src/_data/settings.json",
+			"file": "[[workspace]]/src/_data/settings.json",
 			"fileType": "json",
 			"singleEntry": true,
 			"schema": {
