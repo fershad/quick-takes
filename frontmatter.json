@@ -15,7 +15,7 @@
 	],
 	"frontMatter.taxonomy.contentTypes": [
 		{
-			"name": "Posts",
+			"name": "post",
 			"pageBundle": false,
 			"previewPath": null,
 			"template": "[[workspace]]/.frontmatter/templates/default.md",
