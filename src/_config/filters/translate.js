@@ -1,5 +1,5 @@
 // finds a translation from src/_data/translations.js
-// can support data substitution, for example: {{ 'translation.key' | translate(page.lang, {data: 500}) }}
+// can support data substitution, for example: {{ 'translation.key' | translate('en')(page.lang, {data: 500}) }}
 // to-do: can this be made to support plurals also?
 const get = require('lodash.get');
 const nunjucks = require('nunjucks');

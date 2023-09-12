@@ -1,5 +1,5 @@
 <nav class="navigation">
-    <a class="site-logo" href="/" {% if page.url === '/' %} aria-current="page" {% endif %} aria-label="{{ 'header.home' | translate }}">
+    <a class="site-logo" href="/" {% if page.url === '/' %} aria-current="page" {% endif %} aria-label="{{ 'header.home' | translate('en') }}">
         <svg
             fill="none"
             height="242"
@@ -9,7 +9,7 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             aria-labelledby="logo-title"
             role="img">
-            <title id="logo-title">{{ 'meta.title' | translate }}</title>
+            <title id="logo-title">{{ 'meta.title' | translate('en') }}</title>
             <clipPath id="a"><path d="m0 0h541v242h-541z"/>
             </clipPath>
             <clipPath id="b"><path d="m0 0h541v242h-541z"/>
@@ -42,8 +42,8 @@
         </svg>
     </a>
     <ul class="navigation-menu">
-        {% for item in navigation[page.lang] %}
-            {%- set url = item.url | locale_url %}
+        {% for item in navigation['en'] %}
+            {%- set url = item.url %}
             <li>
                 <a href="{{ url }}" {% if page.url === url %} aria-current="page" {% endif %}>
                     {{ item.text }}

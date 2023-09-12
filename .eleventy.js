@@ -51,7 +51,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPlugin(pluginRSS);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-    eleventyConfig.addPlugin(EleventyI18nPlugin, { defaultLanguage: 'en' });
+    // eleventyConfig.addPlugin(EleventyI18nPlugin, { defaultLanguage: 'en' });
     eleventyConfig.addPlugin(pluginEmbedEverything, {
         use: ['twitter', 'youtube', 'vimeo'],
         twitter: {
