@@ -459,8 +459,12 @@ a[aria-current="page"] {
 	align-items: center;
 }
 
-.rss-icon {
+[class$="-icon"] {
 	width: 44px;
+}
+.icons {
+	display: flex;
+	gap: 1.5rem;
 }
 
 /* feed xslt */
