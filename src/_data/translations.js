@@ -1,11 +1,11 @@
 module.exports = {
     en: {
         meta: {
-            title: 'elva',
+            title: 'Quick Takes by Fershad',
             rssTitle: 'RSS Feed',
             jsonTitle: 'JSON Feed',
-            description: 'A multilingual, clean, green, 11ty starter theme',
-            opengraphDefaultAlt: 'An English description of the default opengraph image'
+            description: 'A place to get thoughts out of my head and into the world.',
+            opengraphDefaultAlt: 'A place to get thoughts out of my head and into the world.'
         },
         header: {
             skipLink: 'Skip to content',
