@@ -126,7 +126,7 @@
 						{
 							"title": "Exclude from Sitemap?",
 							"name": "excludeFromSitemap",
-							"type": "boolean",
+							"type": "boolean"
 						},
 						{
 							"title": "Sitemap Change Frequency",
@@ -191,12 +191,12 @@
 					"title": "Permalink",
 					"name": "permalink",
 					"type": "string",
-					"single": true,
+					"single": true
 				},
 				{
 					"title": "Exclude from collections?",
 					"name": "eleventyExcludeFromCollections",
-					"type": "boolean",
+					"type": "boolean"
 				}
 			]
 		}
@@ -209,13 +209,13 @@
 				"frontMatter.content.pageFolders": [
 					{
 						"title": "Posts",
-						"path": "[[workspace]]/src/en/posts",
-						"previewPath": "en/writing"
+						"path": "[[workspace]]/src/posts",
+						"previewPath": "/writing"
 					},
 					{
 						"title": "Pages",
-						"path": "[[workspace]]/src/en/pages",
-						"previewPath": "en"
+						"path": "[[workspace]]/src/pages",
+						"previewPath": "/"
 					}
 				],
 				"frontMatter.content.publicFolder": "[[workspace]]/src"
@@ -607,5 +607,6 @@
 			"title": "Generate open graph image",
 			"script": ".frontmatter/scripts/opengraph.js"
 		}
-	]
+	],
+	"frontMatter.content.pageFolders": []
 }
