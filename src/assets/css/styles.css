@@ -147,6 +147,7 @@ p,
 li,
 blockquote:not([class]) {
 	max-width: 65ch;
+	line-height: 1.6;
 }
 
 p:has(> picture) {
