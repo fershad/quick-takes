@@ -1,10 +1,10 @@
 ---
 title: Buying Refurbished Gear
 date: 2023-10-13
-draft: true
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-buying-refurbished-gear.png
+layout: post
 ---
 
 Saving this link for my future self and anyone who comes across this post.
