@@ -1,10 +1,14 @@
 ---
 title: Learning about training AI and learning about ourselves
 date: 2023-10-16
-draft: true
 lang: en
 type: post
+keywords:
+    - ai
+    - pokemon
+    - training ai
 thumbnail: /assets/img/opengraph-learning-about-training-ai-and-learning-about-ourselves.png
+slug: learning-training-ai-pokemon
 ---
 
 Peter Whidden's put together a project to train an AI how to play Pokemon Red using reinforcement learning. That's cool by itself, especially when you see the whole thing come together in the awesome YouTube video he's created (linked below).
