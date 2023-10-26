@@ -10,12 +10,7 @@ thumbnail: /assets/img/opengraph-data-center-electricity-usage-in-ireland-matche
 
 This is wild. Data from Ireland shows that the electricity consumption of data centers in 2022 was the same as all the energy used by urban dwellings in the country.
 
-![Data Centres Metered Electricity Consumption 2022
-% of metered electricity consumed by data centres, 5% in 2015, 14% in 2021, 18% in 2022
-
-% of metered electricity consumed by urban dwellings, 21% in 2021, 18% in 2022
-
-% of metered electricity consumed by rural dwellings, 12% in 2021, 10% in 2022](/assets/img/Data%20Centres%20Electricity%20Consumption%202022.png)
+![Data Centres Metered Electricity Consumption 2022: % of metered electricity consumed by data centres, 5% in 2015, 14% in 2021, 18% in 2022; % of metered electricity consumed by urban dwellings, 21% in 2021, 18% in 2022; % of metered electricity consumed by rural dwellings, 12% in 2021, 10% in 2022](/assets/img/Data%20Centres%20Electricity%20Consumption%202022.png)
 
 The infographic above comes from the [Central Statistics Office of Ireland (CSO)](https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2022/).
 
