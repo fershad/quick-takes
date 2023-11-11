@@ -3,7 +3,7 @@
     <head>
         {%- set t = ((seo.title or title) + ' ' + settings.meta.separator + ' ' + ('meta.title' | translate('en')) if (seo.title or title) else ('meta.title' | translate('en'))) %}
         {%- set d = seo.description or ('meta.description' | translate('en')) %}
-        {%- set u = page.url | htmlBaseUrl(settings.url) %}
+        {%- set u = (seo.canonical or page.url) | htmlBaseUrl(settings.url) %}
         {%- set i = (thumbnail or settings.meta.opengraphDefaultImage) | htmlBaseUrl(settings.url) %}
         {%- set ia = thumbnailDescription or ('meta.opengraphDefaultAlt' | translate('en')) %}
         <!-- charset / viewport -->
