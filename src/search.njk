@@ -7,19 +7,18 @@ noIndex: true
 
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
     <script src="/pagefind/pagefind-ui.js"></script>
-    <style>
-        html[data-theme="dark"]{:root {
-            --pagefind-ui-primary: #eeeeee;
-            --pagefind-ui-text: #eeeeee;
-            --pagefind-ui-background: #152028;
-            --pagefind-ui-border: #152028;
-            --pagefind-ui-tag: #152028;
-        }
+    <style>:root[data-theme="dark"]
+    {
+        --pagefind-ui-primary: #eeeeee;
+        --pagefind-ui-text: #eeeeee;
+        --pagefind-ui-background: #152028;
+        --pagefind-ui-border: #152028;
+        --pagefind-ui-tag: #152028;
     }
-    </style>
-    <div id="search"></div>
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            new PagefindUI({element: "#search", showSubResults: true});
-        });
-    </script>
+</style>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({element: "#search", showSubResults: true});
+    });
+</script>
