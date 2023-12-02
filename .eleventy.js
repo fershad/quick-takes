@@ -11,6 +11,7 @@ const markdownItSup = require('markdown-it-sup');
 const pluginRSS = require('@11ty/eleventy-plugin-rss');
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginEmbedEverything = require('eleventy-plugin-embed-everything');
+const { execSync } = require('child_process')
 
 // Local Imports --------------------------------------
 
@@ -132,6 +133,11 @@ module.exports = eleventyConfig => {
         mdLib.use(markdownItSub);
         mdLib.use(markdownItSup);
     });
+
+	// Pagefind ----------------------------------------
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source dist --glob \"**/*.html\"`, { encoding: 'utf-8' })
+  })
 
     // 11ty Settings -----------------------------------
 
