@@ -1,10 +1,17 @@
 ---
 title: Performance Planet 2023
 date: 2023-12-06
-draft: true
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-performance-planet-2023.png
+layout: post
+tags:
+    - emissions
+    - estimates
+    - performance
+    - web perf
+    - website carbon
+    - progress over perfection
 ---
 
 I've been wanting to write something for the Web Performance Calendar for years, and finally got around to it! I wrote out some thoughts on the current state of website carbon emissions estimations, and why I believe web performance tools _should_ report on the metric.
