@@ -1,7 +1,7 @@
 ---
 title: Are my third parties green? browser extensions
 date: 2023-12-29
-draft: true
+draft: false
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-are-my-third-parties-green-browser-extensions.png
