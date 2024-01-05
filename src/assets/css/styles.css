@@ -132,12 +132,19 @@ blockquote:not([class]) p:last-of-type {
 	font-weight: normal;
 }
 
-blockquote p::before {
+/* blockquote p::before {
 	content: open-quote;
 }
 
 blockquote p::after {
 	content: close-quote;
+} */
+
+blockquote {
+	margin: var(--space-m) 0;
+	padding: var(--space-m);
+	border-left: 4px solid var(--foreground-soft);
+	background-color: var(--background-soft);
 }
 
 h4,
