@@ -33,20 +33,20 @@ These are things [I set out to do more or less of in 2024](https://qt.fershad.co
 
 #### **Start**
 
-- Going to the gym regularly: Yep ⭐
-- Doing 20k+ bike rides each week: Nope ❎. It's winter, gimme a break. I have been running a bit more instead.
-- Write monthly reviews: Yep ⭐, you're reading it now.
-- Take the cat outside the apartment: Nope ❎
-- Note thoughts in a notebook: Nope ❎
+- _Going to the gym regularly:_ Yep ⭐
+- _Doing 20k+ bike rides each week:_ Nope ❎. It's winter, gimme a break. I have been running a bit more instead.
+- _Writing monthly reviews:_ Yep ⭐, you're reading it now.
+- _Taking the cat outside the apartment:_ Nope ❎
+- _Capturing thoughts in a notebook:_ Nope ❎
 
 #### **Stop**
 
-- Sugary snacks: Nope ❎
-- Using my phone in bed: Nope ❎
+- _Sugary snacks:_ Nope ❎
+- _Using my phone in bed:_ Nope ❎
 
 #### **Continue**
 
-- Taking regular breaks/vacations with Kay: Nope ❎. But we are planning a trip to the Nordics this summer after the Touch World Cup!
-- Getting nerd-sniped by work stuff: Yep ⭐
-- Following other folks on RSS: Nope ❎. I have trouble keeping up with my feed as it is. Perhaps it's time to clean it up.
-- Building a financial safety-net: Yep ⭐
+- _Taking regular breaks/vacations with Kay:_ Nope ❎. But we are planning a trip to the Nordics this summer after the Touch World Cup!
+- _Getting nerd-sniped by work stuff:_ Yep ⭐ 1000000%
+- _Following other folks on RSS:_ Nope ❎. I have trouble keeping up with my feed as it is. Perhaps it's time to clean it up.
+- _Building a financial safety-net:_ Yep ⭐
