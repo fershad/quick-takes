@@ -1,0 +1,22 @@
+{% if not postType %}
+  {% set postType = "post" %}
+{% endif %}
+<hr>
+  <div class="pagination">
+    {% for post in paginationPosts %}
+      {% if post.url === page.url %}
+        {% if not loop.first %}
+          {% set previousPost = paginationPosts[loop.index0 - 1] %}
+        {% endif %}
+        {% if not loop.last %}
+          {% set nextPost = paginationPosts[loop.index0 + 1] %}
+        {% endif %}
+        {% if previousPost %}
+          <a href="{{ previousPost.url }}" class="previous-post">Previous {{ postType }}: {{ previousPost.data.title }}</a>
+        {% endif %}
+        {% if nextPost %}
+          <a href="{{ nextPost.url }}" class="next-post">Next {{ postType }}: {{ nextPost.data.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>

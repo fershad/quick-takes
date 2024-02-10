@@ -3,16 +3,21 @@ layout: base
 ---
 
 <article class="hentry" data-pagefind-body="data-pagefind-body">
-    <header class="entry-header">
-        <h1 class="entry-title">{{title}}</h1>
-        <ul class="meta" data-pagefind-ignore="all">
-            <li class="meta-date">
-                <time class="entry-date published" datatime="{{ date | dateToRfc3339 }}">{{ date | formatDate }}</time>
-            </li>
-            <li class="meta-reading-time">{{ content | readingTime }}</li>
-        </ul>
-    </header>
-    <div class="entry-content">
-        {{ content | safe }}
-    </div>
+  <header class="entry-header">
+    <h1 class="entry-title">{{ title }}</h1>
+    <ul class="meta" data-pagefind-ignore="all">
+      <li class="meta-date">
+        <time class="entry-date published" datatime="{{ date | dateToRfc3339 }}">{{ date | formatDate }}</time>
+      </li>
+      <li class="meta-reading-time">{{ content | readingTime }}</li>
+    </ul>
+  </header>
+  <div class="entry-content">
+    {{ content | safe }}
+  </div>
 </article>
+{% if tags | includes("monthly") %}
+  {% set paginationPosts = collections.monthly %}
+  {% set postType = "month" %}
+  {% include "pagination.njk" %}
+{% endif %}

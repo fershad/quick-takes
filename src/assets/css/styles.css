@@ -512,3 +512,11 @@ a[aria-current="page"] {
 .mono {
   font-family: var(--font-mono);
 }
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: space-between;
+  margin-block-start: 1.5rem;
+}
