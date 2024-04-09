@@ -1,7 +1,7 @@
 ---
 title: "Monthly #2"
 date: 2024-03-02
-draft: true
+draft: false
 lang: en
 type: post
 tags:
