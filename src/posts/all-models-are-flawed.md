@@ -1,10 +1,11 @@
 ---
 title: All models are flawed
-date: 2024-02-05
+date: 2024-04-24
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-all-models-are-flawed.png
 layout: post
+lastmod: 2024-04-24
 ---
 
 There's a quote from [George Box](https://en.wikipedia.org/wiki/All_models_are_wrong) that I use pretty often in writing and conference talks.
