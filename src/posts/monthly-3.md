@@ -1,5 +1,5 @@
 ---
-title: “Monthly 3”
+title: "Monthly 3"
 date: 2024-04-02
 lang: en
 type: post
