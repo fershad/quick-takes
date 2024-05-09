@@ -1,5 +1,5 @@
 ---
-title: “Screaming Frog using CO2.js”
+title: Screaming Frog using CO2.js
 date: 2024-05-09
 lang: en
 type: post
