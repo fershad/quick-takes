@@ -4,6 +4,8 @@ date: 2024-05-28
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-the-best-bits-from-this-week-week-21-2024.png
+tags:
+  - bestbits
 ---
 
 ## [Is the Planet the Missing Member of Your Project Team](https://clearleft.com/thinking/is-the-planet-the-missing-member-of-your-project-team)

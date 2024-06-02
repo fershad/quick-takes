@@ -6,6 +6,8 @@ type: post
 thumbnail: /assets/img/opengraph-all-models-are-flawed.png
 layout: post
 lastmod: 2024-04-24
+tags:
+  - note
 ---
 
 There's a quote from [George Box](https://en.wikipedia.org/wiki/All_models_are_wrong) that I use pretty often in writing and conference talks.

@@ -4,6 +4,8 @@ date: 2024-06-02
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-the-best-bits-from-this-week-week-22-2024.png
+tags:
+  - bestbits
 ---
 
 ## 🗒️ [How It Feels to Get an AI Email From a Friend](https://mrgan.com/ai-email-from-a-friend/)

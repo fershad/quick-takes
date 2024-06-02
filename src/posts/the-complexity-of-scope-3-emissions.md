@@ -5,12 +5,13 @@ lang: en
 type: post
 thumbnail: /assets/img/opengraph-the-complexity-of-scope-3-emissions.png
 tags:
-    - google
-    - scope 3
-    - emissions
-    - ghg protocol
+  - google
+  - scope 3
+  - emissions
+  - ghg protocol
+  - note
 seo:
-    description: Some observations on what Google reports in its Scope 3 emissions, and how that compares to Mozilla.
+  description: Some observations on what Google reports in its Scope 3 emissions, and how that compares to Mozilla.
 ---
 
 Marketa from Wholegrain Digital wrote article a while back which touches on [the complexity that surrounds Scope 3 emissions](https://www.wholegraindigital.com/blog/scope_3_emissions/) as they are currently measured under the Greenhouse Gas Protocol (GHG Protocol). The Wholegrain team do a great job at writing openly about this kind of stuff (see: [The challenge of calculating our company carbon emissions](https://www.wholegraindigital.com/blog/calculating-emissions-2023/)). One section from Marketa's post that struck me most was:
@@ -21,13 +22,13 @@ Looking at Google's 2023 Environmental Report, they do report 7.6 million tonnes
 
 It's also worth noting what's included in Google's reporting of Scope 3 emissions. They list the following categories:
 
--   Category 1: Purchased goods and services
--   Category 2: Capital goods
--   Category 4: Upstream transportation and distribution
--   Category 6: Business travel
--   Category 7: Employee commuting, including
-    teleworking
--   Category 11: Use of sold products
--   Category 12: End-of-life treatment of sold products
+- Category 1: Purchased goods and services
+- Category 2: Capital goods
+- Category 4: Upstream transportation and distribution
+- Category 6: Business travel
+- Category 7: Employee commuting, including
+  teleworking
+- Category 11: Use of sold products
+- Category 12: End-of-life treatment of sold products
 
 Double-clicking on Category 11: Use of sold products, _only_ covers the use of Google's flagship hardware products. Unlike Mozilla, who's emissions baseline included Firefox desktop and mobile, Google's reporting does not include (from what I can tell) the Chrome web browser, or other user software/apps. I dare say it would result in a pretty sizeable addition to Google's reported Scope 3 emissions if these were to be included.

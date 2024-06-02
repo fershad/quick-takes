@@ -4,6 +4,8 @@ date: 2024-05-12
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-the-best-things-i-heard-this-week-week-19-2024.png
+tags:
+  - bestbits
 ---
 
 Tiffany B. Brown [does this weekly post](https://tiffanybbrown.com/2024/05/best-things-i-heard-week-19-2024/) on her blog capturing some podcast/audio highlights that interested her over the past week. I've started using [Snipd](https://www.snipd.com/) to capture little bits from the podcast I listen to on the regular, however I've never really done anything with them. This feels like a good habit to start, getting me to review the bits I capture from podcasts through the week & put them out into the world at the very least.

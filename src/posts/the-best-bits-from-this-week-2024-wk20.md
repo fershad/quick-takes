@@ -4,6 +4,8 @@ date: 2024-05-20
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-the-best-bits-from-this-week-week-20-2024.png
+tags:
+  - bestbits
 ---
 
 Last week I made a first weekly post title ["The best things I heard this week (Week 19, 2024)"](https://qt.fershad.com/writing/the-best-things-i-heard-this-week/). I've decided to change that up to be broader to include things I've read as well as things I've heard.

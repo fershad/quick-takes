@@ -5,6 +5,8 @@ lang: en
 type: post
 thumbnail: /assets/img/opengraph-progress-is-impossible-without-change.png
 layout: post
+tags:
+  - note
 ---
 
 > Progress is impossible without change; and those who cannot change their minds cannot change anything.
