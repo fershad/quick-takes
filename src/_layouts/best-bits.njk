@@ -1,0 +1,12 @@
+---
+layout: base
+---
+
+<div class="site-intro">
+  <h1>Weekly Best Bits posts</h1>
+  <p>A collection of weekly posts reviewing articles and podcasts that caught my attention.</p>
+</div>
+<div class="posts-list">
+  {% include "best-bits.njk" %}
+  {{ content | safe }}
+</div>
