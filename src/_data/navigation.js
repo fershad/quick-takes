@@ -13,7 +13,7 @@ module.exports = {
 			url: '/best-bits/'
 		},
 		{
-			text: 'Weekly Best Bits',
+			text: 'Search',
 			url: '/search/'
 		}
     ],
