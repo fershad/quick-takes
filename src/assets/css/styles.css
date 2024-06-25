@@ -520,3 +520,7 @@ a[aria-current="page"] {
   justify-content: space-between;
   margin-block-start: 1.5rem;
 }
+
+.posts-list h2 {
+  margin-block-end: 0.6rem;
+}

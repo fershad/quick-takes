@@ -6,8 +6,42 @@ layout: base
   <p>This site is a collection of notes and quick thoughts that have been bouncing around in my mind. I write longer posts
     over
     <a href="https://www.fershad.com/writing/">on my blog</a>.</p>
+  {% set monthly = collections.monthly | languageFilter | last %}
+  {% set bestbit = collections.bestbits | languageFilter | last %}
+  <div class="posts-list">
+    <ol reversed class="postlist" style="counter-reset: start-from 1">
+      <li class="postlist-item{% if monthly.url === url %} postlist-item-active{% endif %}">
+        <h2>Latest Monthly Review</h2>
+        <p>
+          <a href="{{ monthly.url }}" class="postlist-link">
+            {% if monthly.data.title %}
+              {{ monthly.data.title }}
+            {% else %}
+              <code>{{ monthly.url }}</code>
+            {% endif %}
+          </a>
+          <time class="postlist-date" datetime="{{ monthly.date | dateToRfc3339 }}">{{ monthly.date | formatDate }}</time>
+        </p>
+      </li>
+      <li class="postlist-item{% if bestbit.url === url %} postlist-item-active{% endif %}">
+        <h2>Latest Best Bit</h2>
+        <p>
+          <a href="{{ bestbit.url }}" class="postlist-link">
+            {% if bestbit.data.title %}
+              {{ bestbit.data.title }}
+            {% else %}
+              <code>{{ bestbit.url }}</code>
+            {% endif %}
+          </a>
+          <time class="postlist-date" datetime="{{ bestbit.date | dateToRfc3339 }}">{{ bestbit.date | formatDate }}</time>
+        </p>
+      </li>
+    </ol>
+  </div>
 </div>
 <div class="posts-list">
-  {% include "home.njk" %}
-  {{ content | safe }}
-</div>
+  <hr>
+    <h2>Recent Notes</h2>
+    {% include "home.njk" %}
+    {{ content | safe }}
+  </div>
