@@ -5,6 +5,8 @@ draft: false
 lang: en
 type: post
 thumbnail: /assets/img/opengraph-two-types-of-people.png
+tags:
+  - note
 ---
 
 I can't remember where I heard this - I have a feeling it was from Mike Maughan on the [No Stupid Questions](https://freakonomics.com/series/nsq/) podcast.
