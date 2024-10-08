@@ -9,9 +9,13 @@ module.exports = {
 			url: '/monthly/'
 		},
 		{
-			text: 'Weekly Best Bits',
-			url: '/best-bits/'
+			text: 'Quotes',
+			url: '/quotes/'
 		},
+		// {
+		// 	text: 'Weekly Best Bits',
+		// 	url: '/best-bits/'
+		// },
 		{
 			text: 'Search',
 			url: '/search/'
