@@ -13,7 +13,6 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginEmbedEverything = require('eleventy-plugin-embed-everything');
 const { execSync } = require('child_process')
 
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 // Local Imports --------------------------------------
 
@@ -22,7 +21,6 @@ const { formatDate } = require('./src/_config/filters/dates');
 // 11ty -----------------------------------------------
 
 module.exports = async eleventyConfig => {
-  eleventyConfig.addPlugin(UpgradeHelper);
   const {EleventyRenderPlugin, EleventyI18nPlugin, EleventyHtmlBasePlugin} = await import("@11ty/eleventy");
 
     // Global Settings --------------------------------

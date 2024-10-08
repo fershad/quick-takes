@@ -54,8 +54,5 @@
 		"pagefind": "^1.0.4",
 		"rimraf": "^3.0.2",
 		"terser": "^5.19.4"
-	},
-	"dependencies": {
-		"@11ty/eleventy-upgrade-help": "^3.0.1"
 	}
 }
