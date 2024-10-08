@@ -1,0 +1,12 @@
+---
+layout: base
+---
+
+<div class="site-intro">
+  <h1>Quotes to remember</h1>
+  <p>A collection of quotes from different places that are worth remembering.</p>
+</div>
+<div class="posts-list">
+  {% include "quotes.njk" %}
+  {{ content | safe }}
+</div>
