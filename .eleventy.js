@@ -2,7 +2,7 @@
 
 // Imports --------------------------------------------
 
-const {EleventyI18nPlugin, EleventyHtmlBasePlugin} = require('@11ty/eleventy');
+// const {EleventyI18nPlugin, EleventyHtmlBasePlugin} = require('@11ty/eleventy');
 const markdownIt = require('markdown-it');
 const markdownItIns = require('markdown-it-ins');
 const markdownItMark = require('markdown-it-mark');
@@ -13,13 +13,17 @@ const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginEmbedEverything = require('eleventy-plugin-embed-everything');
 const { execSync } = require('child_process')
 
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 // Local Imports --------------------------------------
 
 const { formatDate } = require('./src/_config/filters/dates');
 
 // 11ty -----------------------------------------------
 
-module.exports = eleventyConfig => {
+module.exports = async eleventyConfig => {
+  eleventyConfig.addPlugin(UpgradeHelper);
+  const {EleventyRenderPlugin, EleventyI18nPlugin, EleventyHtmlBasePlugin} = await import("@11ty/eleventy");
 
     // Global Settings --------------------------------
 
